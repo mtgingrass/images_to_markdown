@@ -11,9 +11,7 @@ Change these lines:
 ```{r}
  glue("
 ## {base_name}
-
 ![{base_name}]({image_path})
-
 ")
 ```
 
@@ -21,10 +19,7 @@ To this:
 
 ```{r}
  glue("
-## {base_name}
-
-![{base_name}]({image_path})
-
+![]({image_path})
 ")
 ```
 3. Run the script in R:
